@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b8add0b78c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo2.png "  class="logo2">
+            <ul>
+                <li><img src="images/notification1.png" ></li>
+                    <li><img src="images/inbox1.png" ></li>
+                        <li><img src="images/video1.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png"> 
+                <input type="text" placeholder="Search">
+                
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/chiru1.png"  >
+            </div>
+        </div>
+        <!-----------------------Settings-Menu---------------------------------->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Chiru</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div> 
+                  <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div> 
+                    <hr>
+
+                    <div class="setting-links">
+                        <img src="images/setting.png" class="settings-icon">
+                        <a href="#">Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+                    </div>
+           
+            <div class="setting-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+            </div>
+  
+    <div class="setting-links">
+        <img src="images/display.png" class="settings-icon">
+        <a href="#">Display and Accessibility <img src="images/arrow.png" width="10px"></a>
+    </div>
+
+<div class="setting-links">
+    <img src="images/logout.png" class="settings-icon">
+    <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+</div>
+
+            
+    </div>
+    </nav>
+
+    
+
+    <div class="container">
+    <!-----------------left-sidebar----------------------->   
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">MarketPlace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+
+            </div>
+        <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="images/shortcut-1.png" >Web developers</a>
+            <a href="#"><img src="images/shortcut-2.png" >Web design course</a>
+            <a href="#"><img src="images/shortcut-3.png" >Full stack development</a>
+            <a href="#"><img src="images/shortcut-4.png" >Website Experts</a>
+           </div>
+        </div>
+        <!-----------------main-content----------------------->   
+        <div class="main-content">
+            
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Chiru</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="images/mani.jpg">
+                        <p>Mani</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="images/ganesh.png">
+                        <p>Ganesh</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="images/chandu.png">
+                        <p>Chandu</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="images/prasanth.jpg">
+                        <p>Prasanth</p>
+                    </div>
+                </div>
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/chiru1.png">
+                        <div>
+                            <p>Chiru</p>
+                            <small>public <i class="fa-solid fa-download"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                    <textarea rowa="3" placeholder="What's on your mind, john ?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/chiru1.png">
+                        <div>
+                            <p>Chiru</p>
+                            <span>April 24 2024, 1:30 PM</span>
+                        </div>
+                    </div>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">As a student dives into HTML,they're embarking on a journey to understand the building blocks of the web.
+                <a href="#"> #Learning HTML </a>  <a href="#"> @Chiranjeevi Pasupuleti </a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/chiru1.png">  <i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/mani.jpg">
+                        <div>
+                            <p>Mani</p>
+                            <span>April 24 2024, 1:30 PM</span>
+                        </div>
+                    </div>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">Things never happens twice.so, enjoy every moment as magic moment.
+                <a href="#"> #Magic moment </a>  <a href="#"> @Manikanta Mondem </a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/chiru1.png">  <i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/ganesh.png">
+                        <div>
+                            <p>ganesh</p>
+                            <span>April 24 2024, 1:30 PM</span>
+                        </div>
+                    </div>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">Enjoy every moment with frnds Because movement becomes Memory.
+                <a href="#"> #Frnds </a>  <a href="#"> @Ganesh Parasa</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/chiru1.png">  <i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/chandu.png">
+                        <div>
+                            <p>Chandu</p>
+                            <span>April 24 2024, 1:30 PM</span>
+                        </div>
+                    </div>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">Project with teammates is never ending story. 
+                <a href="#"> #Team Work </a>  <a href="#"> @Chandu Ramisetty</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/chiru1.png">  <i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/prasanth.jpg">
+                        <div>
+                            <p>prasanth</p>
+                            <span>April 24 2024, 1:30 PM</span>
+                        </div>
+                    </div>
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">Solving a problem with communicating with teammates.
+                <a href="#"> #Solving problems </a>  <a href="#"> @Prasanth tuta </a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div classs="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/chiru1.png">  <i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            
+         <button type="button" class="Load-More">Load More</button>
+        </div>
+        <!-----------------right-sidebar----------------------->   
+        <div class="right-sidebar">
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+        <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+        </div>
+        <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>William Tech Park</p>
+            <a href="#">More Info</a>
+        </div>
+    </div>
+    <div class="event">
+        <div class="left-event">
+            <h3>22</h3>
+            <span>June</span>
+        </div>
+        <div class="event-right">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Mobile Markating</p>
+            <a href="#">More Info</a>
+        </div>
+    </div>
+    <div class="sidebar-title">
+        <h4>Advertisement</h4>
+        <a href="#">Close</a>
+    </div>
+    <img src="images/advertisement.png" class="sidebar-ads">`
+    <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="images/mani.jpg" alt="">
+        </div>
+        <p>Mani</p>
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="images/chandu.png" alt="">
+        </div>
+        <p>Chandu</p>
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="images/ganesh.png" alt="">
+        </div>
+        <p>Ganesh</p>
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="images/prasanth.jpg" alt="">
+        </div>
+        <p>prasanth</p>
+    </div>
+        </div>
+        </div>
+    </div>
+
+
+<div class="footer">
+    <p>Copyright 2024 - SocialBook</p>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+
+
+</html>
